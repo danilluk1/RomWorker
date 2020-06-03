@@ -117,6 +117,7 @@ namespace RomFileWriter {
 
     class Program {
         static void Main() {
+            //Если файла .rom не сущестует, программа создаст исключение ArgumentException
             var rom = new ClassROM {
                 RomBaseDirectory = @"D:\ROM\RomBaseFolder\",
                 RomFileDirectory = @"D:\ROM\eeprom.rom"
