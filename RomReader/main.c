@@ -13,12 +13,12 @@ static void MakeFileFromBytes(char* path, char* data, size_t dataLength) {
 
 int main(void) {
 	char* pathtoRom = "D:\\ROM\\eeprom.rom";
-	ROMFile* file = ROMFind(pathtoRom, "sme.txt");
+	ROMFile* file = ROMFind(pathtoRom, "some.txt");
 	if (file != NULL) {
 		char* buffer = calloc(file->Length, sizeof(char));
 		int byteRead = ROMLoad(pathtoRom, file, buffer, file->Length);
 		if (byteRead != -1) {
-			MakeFileFromBytes("D:\\ROM\\s.txt", buffer, file->Length);
+			MakeFileFromBytes("D:\\ROM\\some.txt", buffer, file->Length);
 		}
 		else {
 			//Ошибка чтения
