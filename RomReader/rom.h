@@ -36,6 +36,7 @@ extern "C" {
 		@param pathToRom Путь к файлу .rom
 		@param romFile Структура со свойствами файла, лежащего в .rom
 		@param buffer Буфер, куда будут прочитаны данные из файла
+		@param Length Длина буфера
 		@retval Кол-во прчитанных байт, или -1
 	*/
 	int ROMLoad(char* pathToRom, ROMFile* romFile, char* buffer, size_t Length);
