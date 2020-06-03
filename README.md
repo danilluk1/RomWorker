@@ -1,13 +1,11 @@
-# WForms-Fishing-MVP
-Actually version of my MVP-Fishing-WForms.
-This project is only for practice.
-You free to make changes into it.
+# RomFile Worker
 
-NEED TO DO:
+Репозиторий состоит из двух частей:
+1)Приложение .net framework, для формирования образа из папки.(Работает как на x64, так и на x32)
+2)Библиотеку с примером использования на языке C
 
-1.UI Reaction to Fish Gathering
-2.Some problems in inventory with equiping items
-3.Need to do UI Menu Map Buttons
-4.Need to make Sounder more bait moving sensetive.
-5.Need to do fishing shop(Using the SellFish() in Player class)
-And some other bugs what can be in project.
+
+-Кодировка имен файлов Windows1251
+-Максимальный размер образа 4гб
+-Максимальная длина имени файла 65535
+-Максимальный раземер файла в образе 4гб
